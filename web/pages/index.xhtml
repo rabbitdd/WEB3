@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: rabbit
+  Date: 31.10.2020
+  Time: 17:36
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <link rel="stylesheet" type="text/css" href="../resources/css/mainPageStyle.css"/>
+    <title>Welcome</title>
+</h:head>
+
+<h:body styleClass="body">
+    <table id="mainTable">
+        <tr>
+            <th class="header" colspan="4">
+                <p> Mishanin Nikita <br/>
+                    P3210
+                    Variant: 10666</p>
+            </th>
+        </tr>
+        <tr>
+            <th class = "clock" colspan="4">
+                <p id="clock"/>
+            </th>
+        </tr>
+        <tr>
+            <td align="center">
+                <h:form>
+                    <h:commandButton action="table" value="GO" />
+                </h:form>
+            </td>
+        </tr>
+    </table>
+    <h:outputScript library="javascript" name="clock.js"/>
+</h:body>
+
+</html>

@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    font-family: Arial, fantasy;
+    color: papayawhip;
+}
+
+.body {
+    background-color: black;
+}
+
+#clock {
+    color: papayawhip;
+}
+
+#mainTable {
+    width: 100%;
+}

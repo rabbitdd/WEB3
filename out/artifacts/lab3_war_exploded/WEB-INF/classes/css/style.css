@@ -1,0 +1,69 @@
+.header {
+    text-align: center;
+    font-family: Arial, fantasy;
+    color: papayawhip;
+}
+.body {
+    background-color: black;
+}
+#mainTable {
+    width: 100%;
+}
+.mainContainer {
+    background-color: red;
+}
+#clock {
+    color: papayawhip;
+}
+.svgContainer {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.xContainer {
+    /*background-color: yellow;*/
+    color: white;
+    margin-left: 700px;
+    border-top: 5px;
+    width: 100px;
+    margin-top: -260px;
+}
+.yContainer {
+    color: white;
+    /*background-color: white;*/
+    margin-left: 700px;
+}
+.rContainer {
+    /*background-color: blueviolet;*/
+    color: white;
+    margin-left: 700px;
+    width: 220px;
+}
+.buttonContainer {
+    background-color: yellowgreen;
+    width: 50px;
+}
+.resultTable {
+    padding: 25px;
+    /*background-color: brown;*/
+}
+#xTable {
+    border: white solid 3px;
+}
+#xTable th, td {
+    border: 2px solid white;
+}
+.dataTable {
+    color: white;
+    border: white solid 3px;
+    width: 100%;
+}
+
+.link {
+    color: white;
+}
+a:hover {
+    color: red;
+}

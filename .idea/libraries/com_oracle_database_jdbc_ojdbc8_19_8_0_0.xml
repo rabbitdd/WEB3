@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.oracle.database.jdbc:ojdbc8:19.8.0.0" type="repository">
+    <properties maven-id="com.oracle.database.jdbc:ojdbc8:19.8.0.0">
+      <exclude>
+        <dependency maven-id="com.oracle.database.jdbc:ojdbc8" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
